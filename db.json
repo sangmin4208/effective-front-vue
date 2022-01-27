@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "content": "string",
+      "dateTime": "2022-01-27T08:46:08.600Z",
+      "nickname": "Nacho",
+      "postNumber": 0,
+      "postViews": 0,
+      "title": "제목1 "
+    },
+    {
+      "content": "string",
+      "dateTime": "2022-01-27T08:46:08.600Z",
+      "nickname": "Nacho",
+      "postNumber": 1,
+      "postViews": 0,
+      "title": "제목2 "
+    }
+  ]
+}
