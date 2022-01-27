@@ -15,6 +15,24 @@
       "postNumber": 1,
       "postViews": 0,
       "title": "제목2 "
+    },
+    {
+      "id": "1643277287357",
+      "postViews": 100,
+      "postNumber": 100,
+      "nickname": "Nacho",
+      "content": "",
+      "title": "",
+      "dateTime": "2022-01-27T09:54:47.357Z"
+    },
+    {
+      "id": "1643279228393",
+      "postViews": 100,
+      "postNumber": 100,
+      "nickname": "Nacho",
+      "content": "",
+      "title": "",
+      "dateTime": "2022-01-27T10:27:08.393Z"
     }
   ]
 }
