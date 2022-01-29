@@ -1,38 +1,26 @@
 {
   "posts": [
     {
-      "content": "string",
-      "dateTime": "2022-01-27T08:46:08.600Z",
-      "nickname": "Nacho",
-      "postNumber": 0,
-      "postViews": 0,
-      "title": "제목1 "
-    },
-    {
-      "content": "string",
-      "dateTime": "2022-01-27T08:46:08.600Z",
-      "nickname": "Nacho",
-      "postNumber": 1,
-      "postViews": 0,
-      "title": "제목2 "
-    },
-    {
       "id": "1643277287357",
-      "postViews": 100,
-      "postNumber": 100,
-      "nickname": "Nacho",
-      "content": "",
-      "title": "",
-      "dateTime": "2022-01-27T09:54:47.357Z"
+      "views": 800,
+      "numbers": 100,
+      "author": "Nacho",
+      "content": "유용한 CSS 꿀팁 10개",
+      "desc": "유용한 CSS 꿀팁 10개",
+      "likes": 32,
+      "title": "CSS 꿀팁 10가지",
+      "createAt": "2022-01-27T09:54:47.357Z"
     },
     {
-      "id": "1643279228393",
-      "postViews": 100,
-      "postNumber": 100,
-      "nickname": "Nacho",
+      "id": "1643448745805",
+      "views": 100,
+      "likes": 0,
+      "numbers": 95,
+      "desc": "꿀팁 :) 이거 잘 써보세요",
+      "author": "Nacho",
       "content": "",
-      "title": "",
-      "dateTime": "2022-01-27T10:27:08.393Z"
+      "title": "유용한 JS 꿀팁 8개",
+      "createAt": "2022-01-29T09:32:25.805Z"
     }
   ]
 }

@@ -4,10 +4,11 @@ import PostListItem from './PostListItem.vue'
 const { posts, isFinished } = getPosts()
 </script>
 <template>
-  <h1>PostList</h1>
   <div v-if="isFinished && posts">
-    <div v-for="post in posts" :key="post.postNumber">
-      <PostListItem :post="post"></PostListItem>
+    <div v-for="post in posts" :key="post.id">
+      <router-link :to="{ name: 'PostDetail', params: { id: post.id } }">
+        <PostListItem :post="post"></PostListItem>
+      </router-link>
     </div>
   </div>
 </template>

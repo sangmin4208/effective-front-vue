@@ -6,12 +6,14 @@ import Post from '../types/post'
 const { createPost } = usePosts()
 const post = reactive<Post>({
   id: Date.now().toString(),
-  postViews: 100,
-  postNumber: 100,
-  nickname: 'Nacho',
+  views: 100,
+  likes: 0,
+  numbers: 100,
+  desc: '꿀팁 :) 이거 잘 써보세요',
+  author: 'Nacho',
   content: '',
   title: '',
-  dateTime: new Date(),
+  createAt: new Date(),
 })
 const handleSubmit = () => {
   createPost(post)

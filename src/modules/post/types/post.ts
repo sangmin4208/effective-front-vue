@@ -1,11 +1,13 @@
 interface Post {
   id?: string
-  postNumber: number
-  nickname: string
-  postViews: number
+  views: number
+  numbers: number
+  author: string
   title: string
   content: string
-  dateTime: Date
+  desc: string
+  likes: number
+  createAt: Date
 }
 
 export default Post
